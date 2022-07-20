@@ -4,15 +4,28 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+h1 {
+    color: orange;
+}
+
 a {
     color: rgb(189, 216, 231);
 }
 
 img {
-    border: 5px dotted aqua;
+    border: 5px dotted orange;
+    margin-bottom: 5px;
 }
 
-div.description h3 {
-    background-color: #fde5e5;
-    color: maroon;
+div {
+    border-radius: 2px;
+    border: 1px solid orange;
+    background: rgb(104, 6, 6);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+div h3,
+div p {
+    margin: 3px;
 }
